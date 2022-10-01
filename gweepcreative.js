@@ -1377,7 +1377,3 @@ client.on('ready', () => {
       console.log ('_________________________________________');
     
     });
-client.on("ready", () => {
-
-  client.channels.cache.get("983064043097047050").join();
-})
