@@ -5,63 +5,48 @@ exports.run = async (client, message) => {
   let prefix = ayarlar.prefix;
 
   const embed = new Discord.MessageEmbed()
-    .setAuthor(`Gweep Creative`)
+    .setAuthor(`𝐁𝐢𝐠$𝐁𝐨𝐬𝐬 DESTEK`)
     .setTitle(``)
     .setColor("#00ff00")
     .setThumbnail(
-      "https://cdn.discordapp.com/attachments/823592301796392960/826048182990667806/standard_2.gif"
+      "https://cdn.discordapp.com/attachments/1011348727371403316/1018273039030440026/standard_8.gif"
     )
     .setDescription(
-      `🎧 Gweep Creative Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
+      `<a:aaworld:979833178934108170> 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬 Botumuzu Eklemek İçin \`${prefix}davet\`<a:mavitik:1022210829304746076> yazabilirsiniz.`
     )
     .addField(
       `__Genel Komutlar__`,
-      `💬 \`${prefix}genel\``,
+      `<a:earthblack:1022207943116066887> \`${prefix}genel\``,
       true
     )
     .addField(
       `__Ayarlar Komutlar__`,
-      `⚙️  \`${prefix}ayarlar\` `,
-      true
-    )
-    .addField(
-      `__Sunucu Koruma(Bakımda)__`,
-      `🔰 \`${prefix}koruma\`  `,
-      true
-    )
-    .addField(
-      `__Sunucu Ayarlar(Bakımda)__`,
-      `⚙️ \`${prefix}sunucu\` `,
+      `<a:ayar:1022209437026484244>  \`${prefix}ayarlar\` `,
       true
     )
     .addField(
       `__Kullanıcı Komutlar__`,
-      `🌀 \`${prefix}kullanıcı\` `,
-      true
-    )
-    .addField(
-      `__Oyun Komutlar(Bakımda)__`,
-      ` 🎮 \`${prefix}oyunlar\` `,
+      `<a:leise_oksag:1022208279222431814> \`${prefix}kullanıcı\` `,
       true
     )
     .addField(
       `__Çekiliş Komutlar__`,
-      `🎉 \`${prefix}çekiliş\` `,
+      `<a:aacekilis:1022208053514350654> \`${prefix}çekiliş\` `,
       true
     )
     .addField(
       `__Eklenti Komutlar__`,
-      `🎏 \`${prefix}eklenti\``,
+      `<a:AyarGif:1022208780072656977> \`${prefix}eklenti\``,
       true
     )
     .addField(
       `__Eğlence Komutlar__`,
-      `🎲 \`${prefix}eğlence\``,
+      `<a:goyun:1022208380170932365> \`${prefix}eğlence\``,
       true
     )
     .addField(
       `__Bilgilendirme__`,
-      `🔱  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 🔱 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 🔱 \`${prefix}iletişim\` | Gweep Creative  İletişim Bilgileri.`
+      `<a:mavitik:1022210829304746076>  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n <a:emoji_12:979725849731407873> \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n <a:emoji_12:979725813740093440> \`${prefix}iletişim\` | 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬  İletişim Bilgileri.`
     );
   return message.channel.send(embed);
 };

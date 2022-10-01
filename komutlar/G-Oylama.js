@@ -21,7 +21,7 @@ module.exports.run = async (client, message, args) => {
       new Discord.MessageEmbed()
         .setColor("RANDOM")
         .setDescription(
-          `<a:unlem:822546045706698763> Oylama Kanalı Ayarlanmamış. \n Ayarlamak İçin \`${prefix}oylama-kanal #kanal\``
+          `<:Coup_unlem:982735047729754162> Oylama Kanalı Ayarlanmamış. \n Ayarlamak İçin \`${prefix}oylama-kanal #kanal\``
         )
     );
 
@@ -32,7 +32,7 @@ module.exports.run = async (client, message, args) => {
     .setColor("RANDOM")
     .addField("__Oylama Var!__", `**${yazi}**`)
     .setThumbnail(
-      `https://cdn.discordapp.com/attachments/823177213859069972/826076268839305276/standard_3.gif`
+      `https://cdn.discordapp.com/attachments/1011348727371403316/1018273039030440026/standard_8.gif`
     )
     .setFooter(`${message.author.username} oylama yaptı.`)
     .setAuthor(`${client.user.username} Oylama`);

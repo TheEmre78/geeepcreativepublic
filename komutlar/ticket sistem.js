@@ -5,52 +5,52 @@ let prefix = ayarlar.prefix;
 
 exports.run = async (bot, msg, args) => {
   const çekiliş = new Discord.MessageEmbed()
-    .setAuthor(`Gweep Creative  | Ticket Sistem`)
+    .setAuthor(`𝐁𝐢𝐠$𝐁𝐨𝐬𝐬  | Ticket Sistem`)
     .setTitle(``)
-   .setImage(
-      "https://cdn.discordapp.com/attachments/823190721862959134/826104795839332402/standard_4.gif"
+   .setthumbail(
+  "https://cdn.discordapp.com/attachments/1011348727371403316/1018273039030440026/standard_8.gif"
     )
     .setColor(`#ee7621`)
      .setThumbnail(
-      "https://cdn.discordapp.com/attachments/823592301796392960/826048182990667806/standard_2.gif"
+      "https://cdn.discordapp.com/attachments/1011348727371403316/1018273039030440026/standard_8.gif"
     )
     .setDescription(
-      `🎫 Gweep Creative Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
+      `<:discord_bot_developer:1018578605095256225> Gweep Creative Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
     )
     .addField(
       `**__Ticket__** `,
-      `🎫  \`${prefix}bilet\` \nTicketi tekrar açar. Ticketi siler `,
+      `<:discord_bot_developer:1018578605095256225>  \`${prefix}bilet\` \nTicketi tekrar açar. Ticketi siler `,
       true
     )
     .addField(
       `**__Ticket Kapat__**`,
-      `🎫  \`${prefix}kapat\` \nTicketi 5 saniyede siler`,
+      `<:discord_bot_developer:1018578605095256225>  \`${prefix}kapat\` \nTicketi 5 saniyede siler`,
       true
     )
     .addField(
       `**__Ticket Kanal__**`,
-      `🎫  \`${prefix}ticket-kanal\` \nTicket Gittiği Kanalı Ayarlar`,
+      `<:discord_bot_developer:1018578605095256225>  \`${prefix}ticket-kanal\` \nTicket Gittiği Kanalı Ayarlar`,
       true
     )
     .addField(
       `**__Ticket Kaldır__**`,
-      `🎫  \`${prefix}ticket-kaldır\` \nTicket Kanalını Kaldırır`,
+      `<:discord_bot_developer:1018578605095256225>  \`${prefix}ticket-kaldır\` \nTicket Kanalını Kaldırır`,
       true
     )
     .addField(
       `**__Ticket Ekle__**`,
-      ` 🎫 \`${prefix}ticket-ekle\` \nTicket Ekler`,
+      ` <:discord_bot_developer:1018578605095256225> \`${prefix}ticket-ekle\` \nTicket Ekler`,
 
       true
     )
     .addField(
       `**__Ticket Aç__**`,
-      ` 🎫  \`${prefix}ticket-aç\` \nTicket Açar`,
+      ` <:discord_bot_developer:1018578605095256225>  \`${prefix}ticket-aç\` \nTicket Açar`,
       true
     )
     .addField(
       `__Bilgilendirme__`,
-      `🎯  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 🎯 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 🎯 \`${prefix}iletişim\` | QualitySel İletişim Bilgileri.`
+      `<:5590serverowner:1018578987099885580>   \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n <:5590serverowner:1018578987099885580>  \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n <:5590serverowner:1018578987099885580>  \`${prefix}iletişim\` | 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬 İletişim Bilgileri.`
     );
   msg.channel.send(çekiliş);
 };

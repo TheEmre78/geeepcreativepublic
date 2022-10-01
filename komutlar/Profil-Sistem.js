@@ -4,14 +4,14 @@ let prefix = ayarlar.prefix;
 
 exports.run = async (bot, msg, args) => {
   const seviye = new Discord.MessageEmbed()
-    .setAuthor(`Gweep Creative  | Profil Sistem`)
+    .setAuthor(`𝐁𝐢𝐠$𝐁𝐨𝐬𝐬  | Profil Sistem`)
     .setTitle(``)
     .setColor("#00ff00")
     .setThumbnail(
-      "https://cdn.discordapp.com/attachments/824633401096011862/824662081882161214/standard_3.gif"
+      "https://cdn.discordapp.com/attachments/1011348727371403316/1018273039030440026/standard_8.gif"
     )
     .setDescription(
-      `⌚️ Gweep Creative Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
+      `⌚️ 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬 Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
     )
     .addField(
       `**__Profilim__**`,
@@ -45,7 +45,7 @@ exports.run = async (bot, msg, args) => {
     )
     .addField(
       `__Bilgilendirme__`,
-      `💎  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 💎 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 💎 \`${prefix}iletişim\` | QualitySel İletişim Bilgileri.`
+      `💎  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 💎 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 💎 \`${prefix}iletişim\` | 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬 İletişim Bilgileri.`
     );
   msg.channel.send(seviye);
 };
