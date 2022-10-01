@@ -3,14 +3,14 @@ const ayarlar = require("../ayarlar.json");
 const prefix = ayarlar.prefix;
 exports.run = async (bot, msg, args) => {
   const seviye = new Discord.MessageEmbed()
-    .setAuthor(`Gweep Creative  | AboneRol Sistem`)
+    .setAuthor(`𝐁𝐢𝐠$𝐁𝐨𝐬𝐬  | AboneRol Sistem`)
     .setTitle(``)
     .setColor("#00ff00")
     .setThumbnail(
-      "https://cdn.discordapp.com/attachments/823592301796392960/826048182990667806/standard_2.gif"
+      "https://cdn.discordapp.com/attachments/1011348727371403316/1018273039030440026/standard_8.gif"
     )
     .setDescription(
-      `💠 Gweep Creative  Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
+      `💠 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬  Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
     )
     .addField(
       `**__Abone__**`,
@@ -34,7 +34,7 @@ exports.run = async (bot, msg, args) => {
     )
     .addField(
       `__Bilgilendirme__`,
-      `🌀  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 🌀 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 🌀 \`${prefix}iletişim\` | Gweep Creative  İletişim Bilgileri.`
+      `🌀  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 🌀 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 🌀 \`${prefix}iletişim\` | 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬  İletişim Bilgileri.`
     );
   msg.channel.send(seviye);
 };

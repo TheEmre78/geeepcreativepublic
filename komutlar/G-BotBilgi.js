@@ -5,13 +5,13 @@ const ayarlar = require("../ayarlar.json");
 let prefix = ayarlar.prefix;
 
   const botbilgi = new Discord.MessageEmbed()
-    .setAuthor(`Gweep Creative | Discord Bot Bilgi Tablosu`)
+    .setAuthor(`𝐁𝐢𝐠$𝐁𝐨𝐬𝐬 | Discord Bot Bilgi Tablosu`)
     .setTitle(``)
     .setColor("#00ff00")
     .setThumbnail(
-      "https://cdn.discordapp.com/attachments/823592301796392960/826048182990667806/standard_2.gif"    )
+      "https://cdn.discordapp.com/attachments/1011348727371403316/1018273039030440026/standard_8.gif"    )
     .setDescription(
-      `📯 Gweep Creative Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
+      `📯 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬 Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
     )
     .addField(
       "__**Bot Verileri**__",
@@ -25,7 +25,7 @@ let prefix = ayarlar.prefix;
     )
     .addField(
       "__**Yetkili Bilgi**__",
-      "👑 **Sunucu Sahipleri**  <@586822327568695317> \n\n"
+      "👑 **Sunucu Sahipleri**  <@809894320500244530> \n\n"
     )
     .addField(
       "__**Sürümler**__",
@@ -38,7 +38,7 @@ let prefix = ayarlar.prefix;
     )
     .addField(
       `__Bilgilendirme__`,
-      `🎓  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 🎓 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 🎓 \`${prefix}iletişim\` | Gweep Creative İletişim Bilgileri.`
+      `🎓  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 🎓 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 🎓 \`${prefix}iletişim\` | 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬 İletişim Bilgileri.`
     ); 
   
   return message.channel.send(botbilgi);
