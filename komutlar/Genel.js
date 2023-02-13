@@ -5,23 +5,23 @@ let prefix = ayarlar.prefix;
 exports.run = async (client, message) => {
 
   const embedgenel = new Discord.MessageEmbed()
-    .setAuthor(`𝐁𝐢𝐠$𝐁𝐨𝐬𝐬  | Genel`)
+    .setAuthor(`ReiXdc/PREMİUM  | Genel`)
     .setTitle(``)
     .setColor("#00ff00")
     .setThumbnail(
-      "https://cdn.discordapp.com/attachments/1011348727371403316/1018273039030440026/standard_8.gif"
+      "https://cdn.discordapp.com/attachments/1050853850740965508/1074728770050719824/Reix_Ozel_Bot_Photo.png"
     )
    .setDescription(
-      `<a:aaworld:979833178934108170> 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬 Botumuzu Eklemek İçin \`${prefix}davet\`<a:mavitik:1022210829304746076> yazabilirsiniz.`
+      ` ReiXdc/PREMİUM Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
     )
     .addField(
       `__Oylama__`,
-      ` <a:astaff_shine:975372930831761430>   \`${prefix}oylama\` Sunucudan Bir Oylama Başlatırsın.`,
+      `    \`${prefix}oylama\` Sunucudan Bir Oylama Başlatırsın.`,
       true
     )
    .addField(
       `__Oylama Kanal__`,
-      ` <a:astaff_shine:975372930831761430>   \`${prefix}oylama-kanal\` Sunucudan Bir Oylama Kanal Ayarlar.`,
+      `    \`${prefix}oylama-kanal\` Sunucudan Bir Oylama Kanal Ayarlar.`,
       true
     )
     .addField(

@@ -8,7 +8,7 @@ exports.run = async (bot, msg, args) => {
     .setTitle(``)
     .setColor("#00ff00")
     .setThumbnail(
-      "https://cdn.discordapp.com/attachments/1011348727371403316/1018273039030440026/standard_8.gif"
+      "https://cdn.discordapp.com/attachments/1050853850740965508/1074728770050719824/Reix_Ozel_Bot_Photo.png"
     )
     .setDescription(
       `📛 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬  Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
@@ -30,7 +30,7 @@ exports.run = async (bot, msg, args) => {
     )
     .addField(
       `__Bilgilendirme__`,
-      `📌  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 📌 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 📌 \`${prefix}iletişim\` | 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬  İletişim Bilgileri.`
+      `📌  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 📌 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 📌 \`${prefix}iletişim\` | ReiXdc/PREMİUM  İletişim Bilgileri.`
     );
   msg.channel.send(seviye);
 };

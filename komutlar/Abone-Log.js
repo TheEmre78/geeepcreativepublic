@@ -9,12 +9,12 @@ exports.run = async (client, message) => {
   let log = message.mentions.channels.first();
   if (!log)
     return message.channel.send(
-      `> <:reddet:822546675221397584> **Bir Kanal Etiketlemen Gerekmekte \n > Örnek __${process.env.prefix}abonelog #kanal__**`
+      `>  **Bir Kanal Etiketlemen Gerekmekte \n > Örnek __${process.env.prefix}abonelog #kanal__**`
     );
 
   database.set(`abonelog.${message.guild.id}`, log.id);
   message.channel.send(
-    `<:kabulet:822545421628342312> **Abone kanalı başarıyla "${log}" olarak ayarlandı.**`
+    ` **Abone kanalı başarıyla "${log}" olarak ayarlandı.**`
   );
 };
 

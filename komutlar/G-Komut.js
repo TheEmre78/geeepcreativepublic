@@ -3,15 +3,15 @@ exports.run = async (client, message, args, level) => {
   const toplamkomut = new Discord.MessageEmbed()
 
     .setTitle(``)
-    .setAuthor(`𝐁𝐢𝐠$𝐁𝐨𝐬𝐬  | Discord Bot Toplam Komut Sayısı`)
+    .setAuthor(`ReiXdc/PREMİUM  | Discord Bot Toplam Komut Sayısı`)
     .setDescription(
-      `✅ **𝐁𝐢𝐠$𝐁𝐨𝐬𝐬  Toplam**  \`` +
+      `✅ **ReiXdc/PREMİUM  Toplam**  \`` +
         client.commands.size +
         `\` **Komut Vardır!**`
     )
     .setColor("#00ff00")
     .setTimestamp()
-    .setFooter(`Play.Big$Boss .Com`, client.user.avatarURL());
+    .setFooter(`Play.ReiXdc/PREMİUM .Com`, client.user.avatarURL());
 
   return message.channel.send(toplamkomut);
 };

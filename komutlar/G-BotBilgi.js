@@ -5,13 +5,13 @@ const ayarlar = require("../ayarlar.json");
 let prefix = ayarlar.prefix;
 
   const botbilgi = new Discord.MessageEmbed()
-    .setAuthor(`𝐁𝐢𝐠$𝐁𝐨𝐬𝐬 | Discord Bot Bilgi Tablosu`)
+    .setAuthor(`ReiXdc/PREMİUM | Discord Bot Bilgi Tablosu`)
     .setTitle(``)
     .setColor("#00ff00")
     .setThumbnail(
-      "https://cdn.discordapp.com/attachments/1011348727371403316/1018273039030440026/standard_8.gif"    )
+      "https://cdn.discordapp.com/attachments/1050853850740965508/1074728770050719824/Reix_Ozel_Bot_Photo.png"    )
     .setDescription(
-      `📯 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬 Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
+      `📯 ReiXdc/PREMİUM Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
     )
     .addField(
       "__**Bot Verileri**__",
@@ -25,7 +25,7 @@ let prefix = ayarlar.prefix;
     )
     .addField(
       "__**Yetkili Bilgi**__",
-      "👑 **Sunucu Sahipleri**  <@809894320500244530> \n\n"
+      "👑 **Sunucu Sahipleri**  <@1023136833003073546> \n\n"
     )
     .addField(
       "__**Sürümler**__",
@@ -38,7 +38,7 @@ let prefix = ayarlar.prefix;
     )
     .addField(
       `__Bilgilendirme__`,
-      `🎓  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 🎓 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 🎓 \`${prefix}iletişim\` | 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬 İletişim Bilgileri.`
+      `🎓  \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 🎓 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 🎓 \`${prefix}iletişim\` | ReiXdc/PREMİUM İletişim Bilgileri.`
     ); 
   
   return message.channel.send(botbilgi);
