@@ -1,3 +1,12 @@
+const express = require('express')
+const app = express();
+const port = 3000
+
+app.get('/', (req, res) => res.send('Uptime Başlatıldı.'))
+
+app.listen(port, () =>
+  console.log('\x1b[33m[Log] Uptime Sistemi Başlatıldı.', '\x1b[0m')
+);
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const chalk = require("chalk");
