@@ -6,14 +6,14 @@ exports.run = async (client, message) => {
 
 
   const embedeğlence = new Discord.MessageEmbed()
-    .setAuthor(`©𝐁𝐢𝐠$𝐁𝐨𝐬𝐬  | Eğlence`)
+    .setAuthor(`ReiXdc/PREMİUM  | Eğlence`)
     .setTitle(``)
     .setColor(`BLACK`)
     .setThumbnail(
-      "https://cdn.discordapp.com/attachments/1011348727371403316/1018273039030440026/standard_8.gif"
+      "https://cdn.discordapp.com/attachments/1050853850740965508/1074728770050719824/Reix_Ozel_Bot_Photo.png"
     )
     .setDescription(
-      `🔔 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬  Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
+      `🔔 ReiXdc/PREMİUM  Botumuzu Eklemek İçin \`${prefix}davet\` yazabilirsiniz.`
     )
     .addField(
       `__Steam Oyun__`,
@@ -72,7 +72,7 @@ exports.run = async (client, message) => {
     )
     .addField(
       `__Bilgilendirme__`,
-      `📙 \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 📙 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 📙 \`${prefix}siteler\` | 𝐁𝐢𝐠$𝐁𝐨𝐬𝐬  Sitelerini Görürsün`
+      `📙 \`${prefix}davet\` | Botu Sununuya Davet Edersiniz\n 📙 \`${prefix}botbilgi\` | Botun İstatistiklerini Görürsünüz \n 📙 \`${prefix}siteler\` | ReiXdc/PREMİUM  Sitelerini Görürsün`
     );
   return message.channel.send(embedeğlence);
 };
